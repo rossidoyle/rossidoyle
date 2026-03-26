@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-This is a webiste where you can find all of my favorite projects I have worked on, and get in contact with me about projects you want to see come to life.
+This is a website where you can find all of my favorite projects I have worked on, and get in contact with me about projects you want to see come to life.
 <!--
 **rossidoyle/rossidoyle** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

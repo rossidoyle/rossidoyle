@@ -11,6 +11,7 @@ function App() {
         <h2>Projects</h2>
         <div className="cards">
           <article className="card">
+            <video controls src="/domesweb.mp4" />
             <h3>Domes Reimagined Sip and Seek</h3>
             <p>React + Vite web app with API integration and responsive UI.</p>
           </article>

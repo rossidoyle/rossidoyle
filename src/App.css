@@ -1,7 +1,7 @@
 :root {
   font-family: Inter, system-ui, -apple-system, sans-serif;
   color: #111827;
-  background: #f4f6fb;
+  background: linear-gradient(to bottom, #f8fafc 0%, #b27a91 100%);
 }
 
 * { box-sizing: border-box; }
@@ -10,10 +10,15 @@ body { margin: 0; }
 
 .app { max-width: 1000px; margin: 0 auto; padding: 2rem; }
 .hero { padding: 3rem 1rem; text-align: center; }
+.hero .headshot { width: 250px; height: 250px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid #eb2525; }
 .hero h1 { font-size: 2.25rem; margin-bottom: 0.5rem; }
 .hero p { max-width: 540px; margin: 0 auto 1rem; color: #4b5563; }
-.button { display: inline-block; background: #2563eb; color: white; border-radius: 0.5rem; padding: 0.75rem 1.25rem; text-decoration: none; }
+.button { display: inline-block; background: #eb2525; color: white; border-radius: 0.5rem; padding: 0.75rem 1.25rem; text-decoration: none; }
 .section { margin-top: 3rem; }
 .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .card { background: white; border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1rem; }
+.card video { width: 100%; height: auto; }
+.audrey-carousel-wrap { margin: 0.75rem 0; text-align: center; }
+.audrey-carousel { width: 100%; max-width: 420px; height: 250px; object-fit: cover; border-radius: 0.5rem; border: 1px solid #d1d5db; display: inline-block; }
+
 .footer { margin-top: 3rem; text-align: center; color: #6b7280; }

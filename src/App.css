@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, -apple-system, sans-serif;
+  font-family: 'Space Grotesk', Inter, system-ui, -apple-system, sans-serif;
   color: #111827;
   background: linear-gradient(to bottom, #f8fafc 0%, #b27a91 100%);
 }
@@ -11,7 +11,7 @@ body { margin: 0; }
 .app { min-height: 100vh; display: flex; flex-direction: column; }
 
 .navbar {
-  background: white;
+  background: #b27a91;
   padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -45,7 +45,7 @@ body { margin: 0; }
 }
 
 .nav-links a:hover {
-  color: #eb2525;
+  color: #61484a;
 }
 
 .main-content {
@@ -58,10 +58,12 @@ body { margin: 0; }
 
 .app { max-width: 100%; margin: 0; padding: 0; background: linear-gradient(to bottom, #f8fafc 0%, #b27a91 100%); min-height: 100vh; }
 .hero { padding: 3rem 1rem; text-align: center; }
-.hero .headshot { width: 250px; height: 250px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid #eb2525; }
+.hero-content { display: flex; align-items: center; justify-content: center; gap: 2rem; flex-wrap: wrap; }
+.hero .headshot { width: 300px; height: 300px; border-radius: 50%; object-fit: cover; margin-bottom: 0; border: 3px solid #b27a91; flex-shrink: 0; }
+.hero-text { text-align: left; }
 .hero h1 { font-size: 2.25rem; margin-bottom: 0.5rem; }
-.hero p { max-width: 540px; margin: 0 auto 1rem; color: #4b5563; }
-.button { display: inline-block; background: #eb2525; color: white; border-radius: 0.5rem; padding: 0.75rem 1.25rem; text-decoration: none; }
+.hero p { max-width: none; margin: 0 auto 1rem; color: #4b5563; }
+.button { display: inline-block; background: #b27a91; color: white; border-radius: 0.5rem; padding: 0.75rem 1.25rem; text-decoration: none; }
 .section { margin-top: 3rem; }
 .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .card { background: white; border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1rem; }
@@ -69,7 +71,7 @@ body { margin: 0; }
 .audrey-carousel-wrap { margin: 0.75rem 0; text-align: center; }
 .audrey-carousel { width: 100%; max-width: 420px; height: 250px; object-fit: cover; border-radius: 0.5rem; border: 1px solid #d1d5db; display: inline-block; }
 
-.footer { margin-top: 3rem; text-align: center; color: #6b7280; }
+.footer { margin-top: 3rem; text-align: center; color: #352728; }
 
 .about-content, .contact-content {
   background: white;
@@ -106,7 +108,7 @@ body { margin: 0; }
 }
 
 .contact-info a {
-  color: #eb2525;
+  color: #b27a91;
   text-decoration: none;
 }
 

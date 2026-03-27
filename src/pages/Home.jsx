@@ -21,19 +21,23 @@ export default function Home() {
   return (
     <>
       <header className="hero">
-        <img src="/rossi.JPEG" alt="Rossi Doyle" className="headshot" />
-        <h1>Rossi Doyle</h1>
-        <p>Milwaukee Freelance Web Developer • Building product-focused web apps</p>
-        <a href="#contact" className="button">Hire me</a>
+        <div className="hero-content">
+          <img src="/rossi.JPEG" alt="Rossi Doyle" className="headshot" />
+          <div className="hero-text">
+            <h1>Rossi Doyle</h1>
+            <p>Milwaukee Based Freelance Web Developer • Building product-focused web apps</p>
+            <a href="#contact" className="button">Hire me</a>
+          </div>
+        </div>
       </header>
 
       <section id="projects" className="section">
         <h2>Projects</h2>
         <div className="cards">
           <article className="card">
-            <h3>Domes Reimagined: Sip and Seek</h3>
+            <h3>Domes Reimagined: Sip & Seek</h3>
             <video controls src="/DomesWeb.mp4" />
-            <p>An app built for patrons of the domes to learn how the plants in the different biomes are used to make drinks at the bar while also incorperating scavenger hunts that will keep guest coming back. This app was created for an MSOE Hackathon in partnership with the Milwaukee Domes and recieved first place. The app was built using TypeScript and Python.</p>
+            <p>An app built for patrons of the domes to learn how the plants in the different biomes are used to make drinks at the bar while also incorperating scavenger hunts that will keep guest coming back. This app was created for an MSOE Hackathon in partnership with the Milwaukee Domes and received first place. The app was built using TypeScript and Python.</p>
             <p>Take a look at the repository <a href="https://github.com/xDazld/HacksGiving-2025" target="_blank" rel="noopener noreferrer">here</a>.</p>
           </article>
           <article className="card">
